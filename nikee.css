@@ -111,14 +111,14 @@
     width:2.3vw;
     height: 3vh;
 }
-@media only screen and (max-width:600px){
+@media screen and (max-width:600px){
     .icon-img{
       width: 7.7vw;
       height: 4.2vh;
   }
   
   }
-  @media only screen and (min-width:600px )and ( max-width:990px){
+  @media screen and (min-width:600px )and ( max-width:990px){
     .icon-img{
         width:4vw;
         height: 2.5vh;
