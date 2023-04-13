@@ -113,7 +113,7 @@
 }
 @media screen and (max-width:600px){
     .icon-img{
-      width: 7.7vw;
+      width: 8.2vw;
       height: 4.2vh;
   }
   
@@ -121,6 +121,6 @@
   @media screen and (min-width:600px )and ( max-width:990px){
     .icon-img{
         width:4vw;
-        height: 2.5vh;
+        height: 2.1vh;
     }
 }
