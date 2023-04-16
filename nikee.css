@@ -4,7 +4,7 @@
 }
 .container{
     background: linear-gradient(45deg,#65bc88,#028bed);
-    height: 100%;
+    height: 115%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@
     background-repeat: no-repeat;
 }
   .nike-bg-2 {
-    background-image: url("nikee (8).png");
+    background-image: url("nike (2).png");
     background-repeat: no-repeat;
   }
   .nike-bg-3 {
@@ -69,7 +69,7 @@
 }
 
 .nike-bg-4{
-    background-image: url("nikee (7).png");
+    background-image: url("nike (4).png");
     background-repeat: no-repeat;
   }
 
@@ -78,7 +78,31 @@
     background-repeat: no-repeat;
   }
   .nike-bg-6{
-    background-image: url("nikee (6).png");
+    background-image: url("nike (6).png");
+    background-repeat: no-repeat;
+  }
+  .nike-bg-7{
+    background-image: url("nike (7).png");
+    background-repeat: no-repeat;
+  }
+  .nike-bg-8{
+    background-image: url("nike (8).png");
+    background-repeat: no-repeat;
+  }
+  .nike-bg-9{
+    background-image: url("nike (9).png");
+    background-repeat: no-repeat;
+  }
+  .nike-bg-10{
+    background-image: url("nike (10).png");
+    background-repeat: no-repeat;
+  }
+  .nike-bg-11{
+    background-image: url("nike (11).png");
+    background-repeat: no-repeat;
+  }
+  .nike-bg-12{
+    background-image: url("nike (12).png");
     background-repeat: no-repeat;
   }
 .badge{
@@ -107,20 +131,20 @@
     border-radius: 100%;
     cursor: pointer;
   }
- .icon-img{
-    width:2.3vw;
+  .icon-img{
+    width:2.05vw;
     height: 3vh;
 }
-@media screen and (max-width:600px){
+@media only screen and (max-width:600px){
     .icon-img{
-      width: 8.2vw;
-      height: 3.5vh;
+      width: 7.7vw;
+      height: 4.2vh;
   }
   
   }
-  @media screen and (min-width:600px )and ( max-width:990px){
+  @media only screen and (min-width:600px )and ( max-width:990px){
     .icon-img{
-        width:6vw;
-        height: 3.2vh;
+        width:10px;
+        height: 10px;
     }
 }
