@@ -15,38 +15,49 @@
     color: white;
     padding-top: 10vh;
     padding-bottom: 2vh;
-    width: 86%;
-    max-width: 900px;
+    width: 90%;
+    max-width: 1260px;
   }
   .description{
   color: white;
-  width: 86%;
-  max-width: 900px;
+  width: 90%;
+  max-width: 1260px;
   margin-bottom: 48px;
   font-size: 19px;
   }
 .cards-container{
     color: black;
     display: flex;
-    width: 90%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1260px;
     flex-wrap: wrap;
-
 }
 .card{
     min-height: 370px;
-    background-color: white;
+    background: linear-gradient(45deg,#DBF3FA, white);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 18px;
     max-width: 230px;
     font-size: 16px;
 }
+.card:hover{
+  padding: 27px;
+  margin:11px ;
+  font-size: 17px;
+  background: linear-gradient(45deg,white, #DBF3FA);
+}
+.card:hover .card-background-img{
+  height: 171px;
+  width: 110%;
+  margin-bottom: 10px;
+}
+
 .card-background-img{
+    align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end ;
@@ -125,26 +136,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #659ebc;
+    background:linear-gradient(45deg,#86ddff, #33abec ,#00a2fa );
     width: 56px;
     height: 56px;
     border-radius: 100%;
     cursor: pointer;
   }
+  .icon-container:hover{
+    background:linear-gradient(45deg, #00a2fa  ,#33abec, #86ddff );
+  }
+  .icon-container:hover .icon-img{
+    width:2.3vw;
+    height: 3.5vh;
+  }
   .icon-img{
     width:2.05vw;
-    height: 3vh;
+    height: 3.2vh;
 }
 @media only screen and (max-width:600px){
     .icon-img{
       width: 7.9vw;
       height: 3.5vh;
   }
+  .icon-container:hover .icon-img{
+    width:8.2vw;
+    height: 3.67vh;
+  }
   
   }
   @media only screen and (min-width:600px )and ( max-width:990px){
     .icon-img{
-        width:3.4vw;
-        height:2.6vw;
+      width:3.4vw;
+      height:2.6vw;
+    }
+    .icon-container:hover .icon-img{
+      width:3.54vw;
+      height: 2.7vh;
     }
 }
