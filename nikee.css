@@ -166,11 +166,11 @@
   }
   @media only screen and (min-width:600px )and ( max-width:990px){
     .icon-img{
-      width:3.4vw;
-      height:2.6vw;
+      width:3.9vw;
+      height:3.3vw;
     }
     .icon-container:hover .icon-img{
-      width:3.54vw;
-      height: 2.7vw;
+      width:4.2vw;
+      height: 3.5vw;
     }
 }
